@@ -1,4 +1,4 @@
-# cifradoCesar
+CIFRADO DEL CESAR
 Este es el README de mi programa de CIFRADO DEL CESAR, que nos solicita lo siguiente:
 
 ##PROBLEMA
