@@ -23,7 +23,8 @@ desplazamiento de 33 espacios hacia la derecha.
 
 ## PSEUDOCODIGO
 
-Algoritmo CifradoCesar
+
+ Algoritmo CifradoCesar
 	Escribir Ingrese una una frase;
 	Leer phrase;
 	Funcion newPhrase <- Cipher ( phrase )
@@ -59,5 +60,4 @@ Algoritmo CifradoCesar
 		Fin Para
 
 	Fin Funcion
-
 FinAlgoritmo
