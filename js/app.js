@@ -24,7 +24,7 @@ var cipher=function(phrase){
      cipCesar=(codAscii-65+33)%26+65;
    }else{
     //Me convierte la letra que tenia en ascii a cifrado de cesar; esta formula se utiliza para las minúsculas
-     cipCesar=(codAscii-97+33)%26+65;
+     cipCesar=(codAscii-97+33)%26+97;
    }
 
    //Convierte el codigo ASCII a una letra
@@ -53,10 +53,10 @@ var decipher=function(newPhrase) {
     //Verifico si la frase ingresada está escrita en mayúscula
     if(newPhrase.toUpperCase()===newPhrase){
       // Me convierte la letra que tenia en ascii a cifrado de cesar; esta formula se utiliza para las mayúsculas
-      valor=(acum-65+33)%26;
+      valor=(acum-65-33)%26+65;
     }else{
       // Me convierte la letra que tenia en ascii a cifrado de cesar; esta formula se utiliza para las minúsculas
-      valor=(acum-97+33)%26;
+      valor=(acum-97-33)%26+97;
     }
 
     //Convierte el codigo ASCII a una letra
