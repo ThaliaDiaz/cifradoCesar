@@ -1,9 +1,11 @@
 //Solicito una frase que será mi paramtero de entrada.
-var phrase=prompt('Ingrese una frase');
+var text= prompt('Ingrese una frase');
+
 //Valido que si no ingresa ninguna cadena me vuelva a pedir
-while(phrase=''){
-  var phrase=prompt('Ingrese una frase');
+while(text===' '|| typeof(text)!=='string'){
+  var text=prompt('Ingrese una frase');
 }
+document.write(text);
 //Creando mi función cifrado
 var cipher=function(phrase){
 
@@ -17,7 +19,7 @@ var cipher=function(phrase){
     //Obtengo el código ascii de la letra en su posición i
     codAscii=phrase.charCodeAt(i);
     //Verifico si la frase ingresada está escrita en mayúscula
-    if(phrase.toUpperCase()==phrase){
+    if(phrase.toUpperCase()===phrase){
     // Me convierte la letra que tenia en ascii a cifrado de cesar; esta formula se utiliza para las mayúsculas
      cipCesar=(codAscii-65+33)%26+65;
    }else{
@@ -34,6 +36,11 @@ var cipher=function(phrase){
   return newPhrase;
 }
 
+//Muestra la frase cifrada
+document.write('<br>' + cipher(text));
+
+var textCipher=cipher(text);
+
 //Creando mi función descifrar;
 var decipher=function(newPhrase) {
   var acum;
@@ -42,9 +49,9 @@ var decipher=function(newPhrase) {
 //Bucle que me sirve para obtener convertir mi frase y descifrarla.
   for(var i=0; i<newPhrase.length; i++){
     //Obtengo el código ascii de la letra en su posición i
-    acum=phrase.charCodeAt(i);
+    acum=newphrase.charCodeAt(i);
     //Verifico si la frase ingresada está escrita en mayúscula
-    if(newPhrase.toUpperCase()==newPhrase){
+    if(newPhrase.toUpperCase()===newPhrase){
       // Me convierte la letra que tenia en ascii a cifrado de cesar; esta formula se utiliza para las mayúsculas
       valor=(acum-65+33)%26;
     }else{
@@ -60,3 +67,5 @@ var decipher=function(newPhrase) {
   //Retorna la frase descifrada
   return descipherPhrase;
 }
+
+document.write('<br>' + decipher(textCipher));
