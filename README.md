@@ -23,4 +23,4 @@ desplazamiento de 33 espacios hacia la derecha.
 
 ## PSEUDOCODIGO
 
- ![pseudocodigo](assets/pseudocodigo.png "pseudocodigo")
+ ![pseudocodigo](http://subefotos.com/ver/?1e15208af39d2eb20f4abc2c2487236do.png)
