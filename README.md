@@ -23,41 +23,4 @@ desplazamiento de 33 espacios hacia la derecha.
 
 ## PSEUDOCODIGO
 
-
- Algoritmo CifradoCesar
-	Escribir Ingrese una una frase;
-	Leer phrase;
-	Funcion newPhrase <- Cipher ( phrase )
-		Leer var codAscii;
-		Leer var cipCesar;
-		Leer var newPhrase='';
-
-		Para i<-0 Hasta phrase.length Con i+1  Hacer
-			codAscci=phrase.charCodeAt(i);
-			Si phrase.toUpperCase()==phrase Entonces
-				cipCesar=(codAscii-65+33)%26+65;
-			SiNo
-				cipCesar=(codAscii-97+33)%26+65;
-			Fin Si
-			var cad=String.fromCharCode(cipCesar);
-			newPhrase=newPhrase.concat(cad);
-		Fin Para
-
-	Fin Funcion
-	Funcion  descipherPhrase<- decipher( newPhrase )
-		Leer var acum;
-		Leer var values;
-		Leer var descipherPhrase='';
-		Para i<-0 Hasta newPhrase.length Con i+1  Hacer
-			acum=phrase.charCodeAt(i);
-			Si newPhrase.toUpperCase()==newPhrase Entonces
-				values=(codAscii-65+33)%26;
-			SiNo
-				values=(codAscii-97+33)%26;
-			Fin Si
-			var str=String.fromCharCode(cipCesar);
-			descipherPhrase=newPhrase.concat(str);
-		Fin Para
-
-	Fin Funcion
-FinAlgoritmo
+ ![pseudocodigo](assets/pseudocodigo.png "imagen de mi pseudocodigo")
