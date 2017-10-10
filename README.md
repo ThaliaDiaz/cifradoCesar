@@ -23,4 +23,4 @@ desplazamiento de 33 espacios hacia la derecha.
 
 ## PSEUDOCODIGO
 
- ![pseudocodigo](C:\Users\Thalia D\Documents\cifrado-de-cesar\assets/pseudocodigo.png "pseudocodigo")
+ ![pseudocodigo](assets/pseudocodigo.png "pseudocodigo")
