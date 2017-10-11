@@ -23,7 +23,7 @@ desplazamiento de 33 espacios hacia la derecha.
 
 ## DIAGRAMA DE FLUJO
 
-![cifradoCesar](assets/cifradoCesar.PNG)
+![cifradoCesar](assets/cifradoCesar.png)
 
 ## PSEUDOCODIGO
 
