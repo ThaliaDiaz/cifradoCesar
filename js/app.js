@@ -3,7 +3,7 @@ var text= prompt('Ingrese una frase');
 
 //Valido que si no ingresa ninguna cadena me vuelva a pedir
 
- if( isNaN(text) !== true || text===' ' ) {
+while( isNaN(text) !== true || text===' ' ) {
    alert('Error. Intente nuevamente.');
    var text= prompt('Ingrese una frase');
  }

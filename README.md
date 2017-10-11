@@ -21,6 +21,10 @@ desplazamiento de 33 espacios hacia la derecha.
 
 3. El usuario no debe poder ingresar un campo vacío o que contenga números
 
+## DIAGRAMA DE FLUJO
+
+![Diagram de Flujo](assets/cifradoCesar.PNG)
+
 ## PSEUDOCODIGO
 
 ![pseudocodigo](assets/pseudocodigo.PNG)
